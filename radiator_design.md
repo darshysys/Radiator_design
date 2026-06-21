@@ -107,7 +107,8 @@ legend('', 'Q = 5500W (minimum)', 'Q = 6050W (design target, +10%)');
 hold off;
 ```
 
-![figure_0.png](tpea35b67d_c23b_40cd_bcb1_67d98a3642a4_media/figure_0.png)
+<img width="700" height="421" alt="image" src="https://github.com/user-attachments/assets/9e5d45c3-6b70-464a-9c83-6991004e807a" />
+
 # Plot Width of Radiator
 ```matlab
 figure;
@@ -124,7 +125,9 @@ legend('', 'Q = 5500W (minimum, for reference)');
 hold off;
 ```
 
-![figure_1.png](tpea35b67d_c23b_40cd_bcb1_67d98a3642a4_media/figure_1.png)
+
+<img width="700" height="421" alt="image" src="https://github.com/user-attachments/assets/46f75f27-cffd-4761-a129-b844c59beae4" />
+
 # Extract exact A\_face value from contour at a given sigma
 ```matlab
 C = contourc(sigma_range, A_face_range, Q_predicted, [5500 5500]);
@@ -202,7 +205,9 @@ yline(5500, 'r--', 'Minimum Requirement')
 title('Sensitivity of Q to Radiator Height (\sigma and A_{face} fixed)')
 ```
 
-![figure_2.png](tpea35b67d_c23b_40cd_bcb1_67d98a3642a4_media/figure_2.png)
+
+<img width="700" height="421" alt="image" src="https://github.com/user-attachments/assets/00feee9a-7db8-42c8-b077-5f29dae2cc46" />
+
 
 ```matlab
 % this plot shows us that given an area and fin density, varying height
@@ -257,7 +262,9 @@ title('Sensitivity of Q to Coolant Flow Rate (\sigma and A_{face} fixed)')
 grid on
 ```
 
-![figure_3.png](tpea35b67d_c23b_40cd_bcb1_67d98a3642a4_media/figure_3.png)
+
+<img width="700" height="421" alt="image" src="https://github.com/user-attachments/assets/b253d1ee-70bf-4180-acfe-6d188fbd4cee" />
+
 
 ```matlab
 %at lower mdot, cmin = cwater instead of cair so Q drastically increases in
